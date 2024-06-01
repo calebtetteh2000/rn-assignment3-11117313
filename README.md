@@ -15,7 +15,7 @@ This is a component for displaying text. It supports nesting, style, and touch h
 <h2>Image</h2>
 This is a component for displaying different types of images, including network images, static resources, temporary local images, and images from local disk, such as the camera roll.
 
-<h2>FlarList</h2>
+<h2>FlatList</h2>
 This is a component for displaying a list of items. It supports both horizontal and vertical layouts.
 
 <h2>TouchableOpacity</h2>
