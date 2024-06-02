@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View, Image, FlatList} from 'react-native';
 
 const DATA = [
-    {id: 1, title: 'Exercise'},
-    {id: 2, title: 'Study'},
-    {id: 3, title: 'Code'},
-    {id: 4, title: 'Meditation'},
-    {id: 5, title: 'Journaling'},
-    {id: 6, title: 'Gratitude'},
-    {id: 7, title: 'Self Care'},
-    {id: 8, title: 'Socializing'},
+    {id: 1, title: 'Exercise', Image:require('./assets/img1.png')},
+    {id: 2, title: 'Study', Image:require('./assets/Other-sitting-icon.jpg')},
+    {id: 3, title: 'Code', Image:require('/Users/calebtetteh/Downloads/DCIT 202/Assignment 3/rn-assignment3-11117313/Assignment3/assets/WhatsApp Image 2024-06-02 at 17.10.02.jpeg')},
+    {id: 4, title: 'Meditation', Image:require('/Users/calebtetteh/Downloads/DCIT 202/Assignment 3/rn-assignment3-11117313/Assignment3/assets/WhatsApp Image 2024-06-02 at 17.10.03 (1).jpeg')},
+    {id: 5, title: 'Journaling', Image:require('/Users/calebtetteh/Downloads/DCIT 202/Assignment 3/rn-assignment3-11117313/Assignment3/assets/WhatsApp Image 2024-06-02 at 17.10.03 (2).jpeg')},
+    {id: 6, title: 'Gratitude', Image:require('/Users/calebtetteh/Downloads/DCIT 202/Assignment 3/rn-assignment3-11117313/Assignment3/assets/WhatsApp Image 2024-06-02 at 17.10.03.jpeg')},
+    {id: 7, title: 'Self Care', Image:require('./assets/Other-sitting-icon.jpg')},
+    {id: 8, title: 'Socializing', Image:require('./assets/img1.png')},
 ];
 
 const categoryItems = ({item}) => {
@@ -17,7 +17,7 @@ const categoryItems = ({item}) => {
         <Text style={styles.categoryText1}>{item.title}</Text>
         <Text>12 Tasks</Text>
         <View style={styles.img}>
-            <Image source={require("./assets/img1.png")} style={styles.imgStyle} resizeMode='contain' />
+            <Image source={item.Image} style={styles.imgStyle} resizeMode='contain' />
         </View>
     </View>
 );
