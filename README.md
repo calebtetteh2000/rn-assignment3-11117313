@@ -21,4 +21,5 @@ This is a component for displaying a list of items. It supports both horizontal 
 <h2>TouchableOpacity</h2>
 This component is a type of button in React Native that becomes translucent when pressed. It can be used to create a pressable area that responds to touch events.
 
-<img width="1470" alt="Screenshot 2024-06-01 at 8 55 18 PM" src="https://github.com/calebtetteh2000/rn-assignment3-11117313/assets/150846386/e38939ec-cc87-4600-9ddd-d89339b08f8c">
+<img width="1470" alt="Screenshot 2024-06-02 at 5 30 08 PM" src="https://github.com/calebtetteh2000/rn-assignment3-11117313/assets/150846386/a84b2400-e07e-4983-9ce1-1f21d94555d7">
+
